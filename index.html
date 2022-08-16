@@ -10,6 +10,7 @@
   <body>
     <div class="container">
       <div class="dashboard dash">
+          <div class="empty"></div>
         <div class="dash-head">
           <img src="view-dashboard.svg" alt="Dashboard button" />
           <p>Dashboard</p>
@@ -57,12 +58,26 @@
       </div>
       <div class="header">
         <div class="header-top">
-          <div class="search"></div>
-          <div class="notifications"></div>
-          <div class="profile">Morgan Oakley</div>
+          <div class="search">
+            <img src="magnify.svg" class="icon" alt="Search button" />
+            <input type="text" class="search-bar"></input>
+          </div>
+          <div class="notifications">
+            <img src="bell-ring.svg" class="icon" alt="Search button" />
+          </div>
+          <img src="image1.jpeg" alt="Profile Picture" />
+          <div class="profile">Matthew LeBar</div>
         </div>
         <div class="header-bottom">
-          <div class="greet">Hi there, Morgan Oakley (@morgan)</div>
+          <img src="image1.jpeg" alt="Profile Picture" />
+          <div class="greet">
+              <p class="small-greet">
+              Hi there, 
+            </p>
+            <p class="big-greet">
+              Matthew LeBar (@matthew)
+            </p>
+        </div>
           <btn class="new">New</btn>
           <btn class="upload">Upload</btn>
           <btn class="share">Share</btn>
